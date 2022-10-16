@@ -1,0 +1,113 @@
+ body {
+    padding: 0;
+    margin: 0;
+    background: url(./ranger-4df6c1b6.png);
+    width: 100%;
+    font-family: "Roboto", sans-serif;
+}
+
+.img {
+    width: 60%;
+}
+
+.header {
+    display: flex;  
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between ;
+    font-size: 20px;
+    padding:  15px;
+    width: 100% !important;
+    height: 60px;
+    background-color:black;
+    box-shadow: 0 7px 15px 0 rgba(0, 0, 0, 0.5);
+}
+
+.div {
+    display: flex;
+    flex-direction: row;
+    font-size: 1.5em;
+    padding: 15px;
+    text-transform: capitalize;
+}
+
+.firstname {
+    color: blue;
+    font-weight: 300;
+}
+
+.lastname {
+    color:white;
+    font-weight: 300;
+    padding-left: 4px;
+}
+
+.navigasi {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navigasi>li {
+    list-style-type: none;
+    padding: 15px;
+}
+
+.navigasi>li>a {
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+.navigasi>li>a:hover {
+    color: cornflowerblue;
+    transition: all .3s ease-in-out;
+}
+
+#menukiri {
+    background-color: rgb(0, 204, 255);
+    font-size: 20px;
+    width: 30%;
+    margin: 40px;
+}
+
+li {
+    color: white;
+}
+
+ul {
+    color: black;  
+}
+
+table {
+    background-color:blue;
+    border-radius: 1%;
+    margin: 40px;
+}
+
+tr, td{
+    background-color: cornflowerblue;
+}
+
+pre {
+    font-size: 14px;
+    background-color: orangered;
+    width: 53%;
+    margin: 40px;
+}
+
+#portofolio{
+    background-size: auto;
+    background-color: orangered;
+}
+
+input[type=text]{
+    width: 95%;
+}
+
+input[type=email]{
+    width: 95%;
+}

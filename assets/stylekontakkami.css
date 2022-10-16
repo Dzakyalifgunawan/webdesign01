@@ -1,0 +1,16 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: darkgray;
+    font-family: "Roboto", sans-serif;
+}
+
+table {
+    background-color:blue;
+    border-radius: 1%;
+    margin: 40px;
+}
+
+tr, td{
+    background-color: cornflowerblue;
+}
