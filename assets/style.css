@@ -103,11 +103,3 @@ pre {
     background-size: auto;
     background-color: orangered;
 }
-
-input[type=text]{
-    width: 95%;
-}
-
-input[type=email]{
-    width: 95%;
-}
